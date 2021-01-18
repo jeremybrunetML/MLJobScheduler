@@ -59,7 +59,7 @@ dependencies {
 
 // tag::jar[]
 jar {
-    baseName = 'alstom-scheduler'
+    baseName = 'datahub-scheduler'
     version =  '0.1.0'
     manifest {
         attributes('Main-Class': 'com.marklogic.scheduler.SchedulerApplication')
