@@ -22,7 +22,7 @@ marklogic:
     finalTriggersDbName: data-hub-final-TRIGGERS
     finalSchemasDbName: data-hub-final-SCHEMAS
 scheduler:
-  threadName: alstom-scheduler
+  threadName: ml-scheduler
   workflowServiceName: checkWorkflowState
   workflowStateServiceName: checkWorkflowState
   stepsConfiguration:
